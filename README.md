@@ -6,19 +6,19 @@ This project provides **personalized savings recommendations** for Indian househ
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 Indian-Cost-Optimization/
 ├── data.csv                                # Dataset of Indian household financial records
-├── indian_cost_optimization_data_mining.py # Main Python script
-├── Indian_Cost_Optimization.ipynb          # Jupyter notebook version
+├── ML_Model_python_file.py                 # Main Python script
+├── ML_model_python_notebook_file.ipynb     # Jupyter notebook version
 └── README.md                               # Project documentation
 ```
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Core ML**: LightGBM (Gradient Boosting Framework)
 - **Hyperparameter Tuning**: Bayesian Optimization
@@ -29,18 +29,18 @@ Indian-Cost-Optimization/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
-### 🐍 Python Script Version
+### Python Script Version
 
 ```bash
 pip install pandas numpy lightgbm bayesian-optimization shap matplotlib seaborn scikit-learn
-python indian_cost_optimization_data_mining.py
+python ML_Model_python_file.py
 ```
 
-### 📓 Jupyter Notebook Version
+### Jupyter Notebook Version
 
-1. Upload `Indian_Cost_Optimization.ipynb` to Google Colab or Jupyter.
+1. Upload `ML_model_python_notebook_file.ipynb` to Google Colab or Jupyter.
 2. Run all cells sequentially.
 3. View results including:
    - Model training progress
@@ -50,7 +50,7 @@ python indian_cost_optimization_data_mining.py
 
 ---
 
-## 💡 Sample Input
+## Sample Input
 
 ```python
 sample_input = {
@@ -77,17 +77,13 @@ sample_input = {
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- 🇮🇳 **PPP-adjusted expense modeling** for Indian context
-- 💰 **Automatic rupee conversion** with category-specific adjustments
-- 🔒 **Savings target validation** (capped at income level)
-- 📊 **Visual diagnostics** with SHAP feature importance
-- ✅ **Comprehensive model evaluation** metrics
-- 🛡 **Safety checks** for realistic savings recommendations
+-  **PPP-adjusted expense modeling** for Indian context
+-  **Automatic rupee conversion** with category-specific adjustments
+-  **Savings target validation** (capped at income level)
+-  **Visual diagnostics** with SHAP feature importance
+-  **Comprehensive model evaluation** metrics
+-  **Safety checks** for realistic savings recommendations
 
 > **Note:** Both script and notebook versions expect `data.csv` in the same directory when running.
-
----
-
-Made with ❤️ for smart Indian financial planning!
