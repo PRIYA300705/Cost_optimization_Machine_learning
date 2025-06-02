@@ -87,3 +87,10 @@ sample_input = {
 -  **Safety checks** for realistic savings recommendations
 
 > **Note:** Both script and notebook versions expect `data.csv` in the same directory when running.
+
+---
+
+### **Author**  
+👤 **Priya Sah**  
+📧 Email: priyasah3005@gmail.com  
+🔗 GitHub: [github.com/PRIYA300705](https://github.com/PRIYA300705) 
